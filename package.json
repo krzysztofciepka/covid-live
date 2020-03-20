@@ -1,0 +1,24 @@
+{
+  "name": "covid-live",
+  "version": "1.0.0",
+  "description": "CLI app showing COVID-19 live data",
+  "keywords": [
+    "covid-19",
+    "covid",
+    "corona",
+    "coronavirus"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "kciepka <krzysztof@ciepka.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "blessed": "^0.1.81",
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0"
+  }
+}
