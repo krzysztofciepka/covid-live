@@ -8,10 +8,10 @@
     "corona",
     "coronavirus"
   ],
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "bin": {
+    "covid-live": "bin/covid-live"
   },
+  "main": "index.js",
   "author": "kciepka <krzysztof@ciepka.com>",
   "license": "MIT",
   "private": false,
@@ -20,5 +20,13 @@
     "blessed": "^0.1.81",
     "cheerio": "^1.0.0-rc.3",
     "moment": "^2.24.0"
+  },
+  "homepage": "https://github.com/krzysztofciepka/covid-live#readme",
+  "bugs": {
+    "url": "https://github.com/krzysztofciepka/covid-live/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofciepka/covid-live.git"
   }
 }
